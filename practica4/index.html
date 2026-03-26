@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios - Soltero Armenta Jesus - 602</title>
+</head>
+<body>
+
+	<h2>Formularios</h2>
+	<h4>Por: Jesus Soltero - 602</h4>
+	<p>Los formularios son campos que permiten el ingreso de datos a la pagina, esto permite la interaccion con el usuario.</p>
+
+	<hr>
+
+	<form method="get">
+		<label>Nombre:</label>
+		<input type="text" name="nombre" placeholder="Nombre completo" size="50" required>
+
+		<br>
+		<label>Correo Electronico</label>
+		<input type="email" name="correo" placeholder="Escribe tu correo" required size="50">
+
+		<br>
+
+		<label>Contraseña:</label>
+		<input type="password" name="clave" placeholder="Minimo 8 caracteres" minlength="8">
+		<br>
+		<label>Fecha de nacimiento:</label>
+		<input type="date" name="fecha" required>
+		<br>
+		<label>Nacionalidad</label>
+		<select>
+			<option selected disabled>Selecciona Pais</option>
+			<option>Mexico</option>
+			<option>Japon</option>
+			<option>Norcorea</option>
+			<option>Estados Unidos</option>
+			<option>Peru</option>
+			<option>Rusia</option>
+			<option>Brasil</option>
+			<option>China</option>
+			<option>India</option>
+		</select>
+
+		<br>
+		<label>Selecciona tus pasatiempos</label> <br>
+		<input type="checkbox" name="">leer <br>
+		<input type="checkbox" name="">escuchar musica <br>
+		<input type="checkbox" name="">Pintar <br>
+		<input type="checkbox" name="">Escribir <br>
+		<input type="checkbox" name="">Wachar peliculas <br>
+
+
+
+		<label>Genero:</label>
+		Hombre <input type="radio" name="genero">
+		Mujer <input type="radio" name="genero">
+		Prefiero no decirlo <input type="radio" name="genero">
+
+
+		
+		<br>
+		<label>Sube tu foto:</label>
+		<input type="file" name="archivo">
+		<br>
+		<label>Escribe un mensaje</label>
+		<br>
+		<textarea required placeholder="Escribe un mensaje"></textarea>
+
+
+		
+        <br>
+		<br>
+		<input type="Submit" name="boton" value="Contacta al 602">
+
+		<input type="reset" name="limpiar">
+
+		<hr>
+
+		<a href="../index.html">Volver al index</a>
+
+	</form>
+
+</body>
+</html>
